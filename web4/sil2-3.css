@@ -1,0 +1,21 @@
+.container{
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    
+    background-color: black;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.row{
+    width: 800px;
+    height: 100px;
+    
+}

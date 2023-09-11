@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Card</title>
+  <style>
+    .container {
+      border: 2px solid black;
+      width: 500px;
+      height: 250px;
+      padding: 10px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header img {
+      width: 100px;
+      margin-right: 10px;
+    }
+
+    .box {
+      width: 150px;
+      height: 100px;
+      float: right;
+    }
+
+    .contact {
+      clear: left;
+      margin-top: 10px;
+    }
+
+    .contact h3, .contact h4 {
+      margin: 0;
+    }
+
+    .description {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://lab.ssafy.com/qudqud08/web_hw_2_4/-/raw/208ff5e9ccba8796394d5f025a4c03f51bea0553/profile.jpg" alt="Profile Image">
+      <h2>Company Name</h2>
+    </div>
+    <div class="contact">
+      <div>
+        <h3>한글 이름</h3>
+        <h4>English Name</h4>
+      </div>
+      <div class="box">
+        <p>Phone Number</p>
+        <p>Email</p>
+      </div>
+    </div>
+    <hr>
+    <div class="description">
+      <p>Description</p>
+    </div>
+  </div>
+</body>
+</html>

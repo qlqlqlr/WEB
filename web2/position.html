@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            width: 500px;
+            height: 200px;
+            background-color: white;
+            border : 1px solid black;
+        }
+        /* absolute : 웹브라우저를 기준 */
+        #absolute{
+            position : absolute;
+            left : 50px;
+            top : 50px;
+        }
+        /* 부모 요소를 기준으로 */
+        #relative {
+            position : relative;
+            left : 100px;
+            top : 200px;
+        }
+        #fixed{
+            width : 100px;
+            height : 100px;
+            background-color: balck;
+            position : fixed;
+            right : 30px;
+            top : 30px;
+        }
+    </style>
+</head>
+<body>
+    <p id="absolute">lasdkfjalskdfjalsdkjpocjawpefjapejfpasdjfpsda</p>
+    <p id="relative">lasdkfjalskdfjalsdkjpocjawpefjapejfpasdjfpsda</p>
+    <p id="fixed"></p>
+</body>
+</html>

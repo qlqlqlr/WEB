@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강사님 풀이</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            width: 1200px;
+            /* 내용을 화면 가운데 배치 */
+            margin: 20px auto;
+        }
+        #header {
+            /* 부모요소의 너비와 같게  */
+            width: 100%;
+            height: 120px;
+            background-color: gray;
+        }
+        #sidebar {
+            width: 300px;
+            height: 600px;
+            background-color: skyblue;
+            /* 왼쪽으로 플로팅 */
+            float: left;
+        }
+        #main {
+            width: 900px;
+            height: 600px;
+            background-color: white;
+            float: left;
+        }
+        #footer {
+            width: 100%;
+            height: 100px;
+            background-color: darkgray;
+            clear: left;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <header id="header">
+            <h1>사이트 제목</h1>
+        </header>
+
+        <asids id="sidebar">
+            <h2>사이드바</h2>
+        </asids>
+        
+        <section id="main">
+            <h2>본문</h2>
+        </section>
+
+        <footer id="footer">
+            <h2>푸터</h2>
+        </footer>
+    </div>
+</body>
+</html>
